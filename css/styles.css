@@ -2,6 +2,8 @@ body{
     background-color: #FAFAFA;
 }
 
+/*********Header************/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +13,7 @@ header{
     border-radius: 0 0 50px 50px;
     background-color: white;
     padding: 0 30px 10px 15px;
+    box-shadow: 0 2px 2px -2px gray;;
 }
 
 .header-icon-cont{
@@ -23,4 +26,262 @@ header{
 .header-icon{
     margin-left: 20px;
     text-align: center;
+}
+
+
+/************Main***********/
+
+
+
+/*******Big Pug Slider*********/
+.pug-slider{
+    height: 280px;
+    background-image: url('../images/pug1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.arrow-cont{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pug-middle-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pug-txt{
+    width: 344px;
+    height: 82px;
+    color: white;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Nino';
+    text-align: center;
+}
+
+.big-btn{
+    width: 176px;
+    height: 42px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    border: none;
+}
+
+.scroll{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 68px;
+    margin-top: 40px;
+}
+
+.big-scroll{
+    width: 28px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+.small-scroll{
+    width: 12px;
+    height: 5px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+}
+
+
+/*********Colors**********/
+
+.green-background{
+    background-color: #F1F7E9;
+    box-shadow: 0 18px 10px -10px rgba(116, 180, 44, 0.2);
+}
+
+.green-span{
+    color: #74B42C;
+}
+
+.green{
+    background-color: #E3F0D4;
+}
+
+.orange-background{
+    background-color: #FEEFE8;
+    box-shadow: 0 18px 10px -10px rgba(245, 98, 31, 0.2);
+}
+
+.orange-span{
+    color: #F5621F;
+}
+
+.orange{
+    background-color: #FDDFD2;
+}
+
+.blue-background{
+    background-color: #EBF7FC;
+    box-shadow: 0 18px 10px -10px rgba(60,171,224,0.2);
+}
+
+
+.blue-span{
+    color: #3CABE0;
+}
+
+.blue{
+    background-color: rgba(60,171,224,0.2);
+}
+
+.purple-background{
+    background-color: #FAF4FA;
+    box-shadow: 0 18px 10px -10px rgba(204,150,208,0.2);
+}
+
+.purple-span{
+    color: #CC96D0;
+}
+
+.purple{
+    background-color: rgba(204,150,208,0.2);
+}
+
+/**********4 Container***********/
+
+.four-cont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.four-box{
+    width: 277px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.four-box p{
+    width: 118px;
+    height: 31px;
+    font-size: 14px;
+    font-family: 'Nino';
+}
+
+.logo-cont{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/***********Prudoct section*********/
+
+.product-div{
+    width: 87%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange-div{
+    border-radius: 10px;
+    position: relative;
+    background-color: #F5621F;
+    width: 378px;
+    height: 426px;
+    color: white;
+}
+
+#p-small{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Nino';
+    left: 40px;
+    top: 72px;
+    color: white;
+}
+
+#p-big{
+    position: absolute;
+    font-size: 24px;
+    font-family: 'Nino';
+    top: 114px;
+    left: 40px;
+    color: white;
+}
+
+#p-medium{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Nino';
+    left: 40px;
+    top: 150px;
+    color: white;
+}
+
+.product-div button{
+    position: absolute;
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 12px;
+}
+
+.orange-div img{
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+}
+.orange-div button{
+    left: 40px;
+    top: 192px;
+}
+
+.blue-div{
+    width: 388px;
+    height: 200px;
+    background-color: #3CABE0;
+    position: relative;
+    border-radius: 10px;
+}
+
+.blue-div img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.blue-div button{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.blue-div #p-medium{
+    left: 74px;
+    top: 76px;
+}
+
+.blue-div #p-big{
+    left: 74px;
+    top: 46px;
 }
