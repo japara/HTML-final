@@ -384,8 +384,11 @@ header{
 /***********Food************/
 
 .food{
+    width: 95%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .arrow-cont{
@@ -508,7 +511,57 @@ header{
     text-decoration: line-through;
 }
 
+.shopping-cart-green{
+    width: 34px;
+    height: 34px;
+    background-color: #74B42C;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .price-black{
     font-size: 24px;
     color: black;
+}
+
+.shopping-cart-orange{
+    width: 34px;
+    height: 34px;
+    background-color: #F5621F;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supply{
+    font-size: 14px;
+    position: absolute;
+    left: 27px;
+    bottom: 32px;
+}
+
+.normal-price{
+    font-size: 24px;
+}
+
+.added{
+    width: 114px;
+    height: 34px;
+    background-color: #F5621F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
 }
