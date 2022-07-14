@@ -212,6 +212,9 @@ header{
     font-size: 14px;
     font-family: 'Nino';
 }
+.between-page img{
+    display: none;
+}
 
 /***********Prudoct section*********/
 
@@ -829,6 +832,34 @@ footer li{
     bottom: 46px;
 }
 
+.responsive-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.home{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.home img{
+    margin-bottom: 8px;
+}
+
+.home p{
+    font-size: 14px;
+}
+
+.burger-menu{
+    background-color: #74B42C;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 11.5px;
+    border-radius: 50%;
+}
 
 /**************AboutUs****************/
 .about-us{
@@ -915,4 +946,205 @@ footer li{
     font-size: 18px;
     line-height: 22px;
     margin-top: 5px;
+}
+
+.linear{
+    background: linear-gradient(to right,
+    orange,
+    rgb(21, 188, 244),
+    red,
+    rgb(1, 207, 1),
+    rgb(230, 128, 4)   ,
+    rgb(247, 9, 247),
+    rgb(182, 179, 179),
+    rgb(3, 84, 3),
+    black);
+-webkit-background-clip: text;
+color: transparent;    
+}
+
+.language{
+    display: none;
+    font-size: 14px;
+    width: fit-content;
+}
+.language p{
+    margin-left:10px;
+}
+
+@media screen and (max-width: 760px) {
+    .contact-page{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .language{
+        display: flex;
+    }
+    .burger-icon{
+        display: none;
+    }
+    .page-location p{
+        margin-top: 32px;
+        margin-bottom: 72px;
+    }
+    .header-icon-cont{
+        display:none;
+    }
+    .location-p{
+        display: none;
+    }
+    .map{
+        margin: 30px 0px;
+    }
+    .page-location img{
+        display:none;
+    }
+    footer{
+        display:none;
+    }
+    
+    .end-logos{
+        display: flex;
+        bottom: 150px;
+        left:40%;
+    }
+
+    .responsive-footer{
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .big-btn{
+        display: none;
+    }
+    
+    .four-cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .four-box{
+        margin-bottom: 15px;
+    }
+
+    .product-div{
+        grid-template-columns: 1;
+        grid-template-rows: repeat(10,100px);
+        width: 350px;
+        margin: 0 auto;
+        row-gap: 30px;
+        text-align: center;
+
+    }
+    .orange-div{
+        grid-row: 1/4;
+        grid-column: 1/2;
+    }
+    #p-small{
+        left: 20px;
+        top: 32px;
+    }
+    #p-big{
+        left: 16px;
+        top: 76px;
+    }
+    #p-medium{
+        left: 16px;
+        top: 106px;
+        bottom: auto;
+        right: auto;
+    }   
+    .orange-div button{
+        position: absolute;
+        left: 16px;
+        bottom: 30px;
+        top: auto;
+    }
+
+    .blue-div{
+        grid-row: 4/6;
+        grid-column: 1/2;
+        margin-top: 30px;
+    }
+
+    .green-div{
+        grid-row: 6/8;
+        grid-column: 1/2;
+    }
+
+    .yellow-div{
+        grid-row: 8/11;
+        grid-column: 1/2;
+    }
+
+    .yellow-div #p-medium{
+        left: 16px;
+    }
+    .yellow-div #p-big{
+        left: 16px;
+    }
+
+    .yellow-div button{
+        left: 170px;
+    }
+    #cat2{
+        display: none;
+    }
+
+    .small-header-p{
+        display: none;
+    }
+    .between-page img{
+        display: block;
+    }
+    .arrow-cont{
+        display: none;
+    }
+    .pedigree{
+        margin-top: 30px;
+    }
+    .food{
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+    }
+    .promo{
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    .turtle-cont{
+        height: 240px;
+        width: 286px;
+        margin: 0 auto;
+        z-index: 5;
+    }
+    .turtle-cont p{
+        width: 171px;
+        font-size: 18px;
+        left: 20px;
+        top: 23px;
+    }
+    .turtle-cont button{
+        left: 20px;
+        bottom: 50px;
+        z-index: 3;
+    }
+    .turtle-cont img{
+        width: 190px;
+        bottom: -25px;
+        right: -50px;
+        z-index: 4;
+    }
+    .brands-cont{
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+    }
+    .brand-logo{
+        margin-top: 15px;
+    }
 }
