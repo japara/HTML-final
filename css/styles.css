@@ -882,11 +882,37 @@ footer li{
 }
 
 /******************Contact*************/
+.contact-page{
+    display: flex;
+}
+
 .map{
     width: 479px;
     height: 400px;
+    margin-left: 191px;
+    margin-right: 126px;
 }
 
 .contact-box{
-    
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+
+.contact-box-header{
+    font-size: 14px;
+    color: #9C9C9C;
+    line-height: 17px;
+}
+
+.contact-box img{
+    margin-right: 33px;
+}
+
+.contact-box p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 5px;
 }
