@@ -1,5 +1,7 @@
 body{
     background-color: #FAFAFA;
+    position: relative;
+    padding-bottom: 177px;
 }
 
 /*********Header************/
@@ -194,7 +196,7 @@ header{
 /***********Between*************/
 .between-page{
     display: flex;
-    width: 82%;
+    width: 87%;
     margin: 60px auto 30px auto;
     justify-content: space-between;
     align-items: center;
@@ -384,7 +386,7 @@ header{
 /***********Food************/
 
 .food{
-    width: 95%;
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -714,3 +716,117 @@ header{
     left: 109px;
     bottom: 30px;
 }
+
+.turtle-cont{
+    width: 87%;
+    height: 250px;
+    background-color: #F5AD00;
+    border-radius: 10px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.turtle-cont img{
+    position: absolute;
+    right: 40px;
+    bottom: -85px;
+}
+
+.turtle-cont p{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    left: 101px;
+    top: 56px;
+    width: 509px;
+}
+
+.turtle-cont button{
+    font-size: 12px;
+    width: 161px;
+    height: 42px;
+    position: absolute;
+    left: 101px;
+    bottom: 50px;
+}
+
+.brands-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 176px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+
+/**************Footer********/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 211px;
+    margin: 130px auto 130px 90px;
+    color: #6E6E6E;
+    font-size: 12px;
+}
+
+.footer-first{
+    width: 378px;
+}
+
+.footer-first p{
+    height: 110px;
+    line-height: 23px;
+    margin-top: 23px;    
+}
+
+.footer-second{
+    width: 90px;
+    height: 100%;
+}
+
+.nav-header{
+    font-size: 14px;
+    font-weight: medium;
+    color: black;
+    margin-bottom: 36px;
+}
+
+footer li{
+    margin-bottom: 18px;
+}
+
+.fb-box{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    border: 1px solid #E7E7E7;
+}
+
+.end-logos{
+    width: 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+    bottom: 46px;
+}
+
+
