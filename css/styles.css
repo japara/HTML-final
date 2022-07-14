@@ -843,6 +843,11 @@ footer li{
     font-size: 14px;
     width: fit-content;
 }
+
+.location-p{
+    color: #C8C8C8;
+}
+
 .page-location img{
     margin: 62px 20px;
 }
@@ -874,4 +879,10 @@ footer li{
 .about-text-container{
     width: 55%;
     margin: 0 auto;
+}
+
+/******************Contact*************/
+.map{
+    width: 479px;
+    height: 400px;
 }
