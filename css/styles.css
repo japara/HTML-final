@@ -30,6 +30,21 @@ header{
     text-align: center;
 }
 
+.zootopia-header{
+    animation: cimcimi 3s infinite;
+}
+
+@keyframes cimcimi{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 /************Main***********/
 
@@ -808,6 +823,13 @@ footer{
 
 footer li{
     margin-bottom: 18px;
+    line-height: 24px;
+}
+
+footer li:hover{
+    background-color: #3CABE0;
+    text-align: center;
+    color: white;
 }
 
 .fb-box{
@@ -1146,5 +1168,90 @@ color: transparent;
     }
     .brand-logo{
         margin-top: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .product-div{
+        grid-template-columns: 1;
+        grid-template-rows: repeat(10,100px);
+        width: 350px;
+        margin: 30px auto;
+        row-gap: 30px;
+        text-align: center;
+
+    }
+    .orange-div{
+        grid-row: 1/4;
+        grid-column: 1/2;
+    }
+    #p-small{
+        left: 20px;
+        top: 32px;
+    }
+    #p-big{
+        left: 16px;
+        top: 76px;
+    }
+    #p-medium{
+        left: 16px;
+        top: 106px;
+        bottom: auto;
+        right: auto;
+    }   
+    .orange-div button{
+        position: absolute;
+        left: 16px;
+        bottom: 30px;
+        top: auto;
+    }
+
+    .blue-div{
+        grid-row: 4/6;
+        grid-column: 1/2;
+        margin-top: 30px;
+    }
+
+    .green-div{
+        grid-row: 6/8;
+        grid-column: 1/2;
+    }
+
+    .yellow-div{
+        grid-row: 8/11;
+        grid-column: 1/2;
+    }
+
+    .yellow-div #p-medium{
+        left: 16px;
+    }
+    .yellow-div #p-big{
+        left: 16px;
+    }
+
+    .yellow-div button{
+        left: 170px;
+    }
+    #cat2{
+        display: none;
+    }
+    .promo{
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    .brands-cont{
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+    }
+    .brand-logo{
+        margin-top: 15px;
+    }
+
+    .arrow-cont{
+        display: none;
     }
 }
