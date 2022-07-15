@@ -1053,7 +1053,7 @@ color: transparent;
     }
 
     .product-div{
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(10,100px);
         width: 350px;
         margin: 0 auto;
@@ -1175,7 +1175,7 @@ color: transparent;
 
 @media screen and (max-width: 1024px){
     .product-div{
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(10,100px);
         width: 350px;
         margin: 30px auto;
