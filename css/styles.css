@@ -816,7 +816,7 @@ footer{
 
 .nav-header{
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     color: black;
     margin-bottom: 36px;
 }
@@ -920,7 +920,7 @@ footer li:hover{
     margin-bottom: 31px;
     font-size: 28px;
     line-height: 34px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .about-p{
